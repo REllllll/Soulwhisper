@@ -5,17 +5,19 @@
 # ]
 # ///
 import os
-import subprocess
+import json
 import glob
 import logging
 from pymongo import MongoClient
+from bson import ObjectId
+from datetime import datetime
 
 # 配置日志
 logging.basicConfig(level=logging.INFO,
                    format='%(asctime)s - %(levelname)s - %(message)s')
 
-def check_mongodb_connection():
-    """检查MongoDB连接"""
+def connect_to_mongodb():
+    """连接到MongoDB数据库"""
     try:
         client = MongoClient('mongodb://localhost:27017/')
         # 测试连接
@@ -27,8 +29,22 @@ def check_mongodb_connection():
         logging.error(f"MongoDB连接失败: {str(e)}")
         raise
 
-def import_json_to_mongodb(json_file, collection_name, db):
-    """使用mongoimport命令导入JSON文件到MongoDB"""
+def convert_mongo_types(doc):
+    """转换MongoDB特殊类型"""
+    if isinstance(doc, dict):
+        for key, value in doc.items():
+            if key == '_id' and isinstance(value, dict) and '$oid' in value:
+                doc[key] = ObjectId(value['$oid'])
+            elif isinstance(value, dict) and '$date' in value:
+                doc[key] = datetime.fromisoformat(value['$date'].replace('Z', '+00:00'))
+            elif isinstance(value, (dict, list)):
+                doc[key] = convert_mongo_types(value)
+    elif isinstance(doc, list):
+        return [convert_mongo_types(item) for item in doc]
+    return doc
+
+def import_json_file(json_file, collection_name, db):
+    """直接导入JSON文件到MongoDB"""
     try:
         logging.info(f"开始处理文件: {json_file}")
         
@@ -37,48 +53,32 @@ def import_json_to_mongodb(json_file, collection_name, db):
             logging.error(f"文件不存在: {json_file}")
             return
             
-        # 检查文件大小
-        file_size = os.path.getsize(json_file)
-        logging.info(f"文件大小: {file_size} 字节")
+        # 读取JSON文件
+        with open(json_file, 'r') as f:
+            data = json.load(f)
+            
+        # 转换MongoDB特殊类型
+        data = convert_mongo_types(data)
         
         # 如果集合已存在，先删除
         if collection_name in db.list_collection_names():
             logging.info(f"删除已存在的集合: {collection_name}")
             db[collection_name].drop()
         
-        # 构建mongoimport命令
-        cmd = [
-            'mongoimport',
-            '--db', 'soulwhisper',
-            '--collection', collection_name,
-            '--type', 'json',
-            '--jsonArray',
-            '--legacy',
-            '--file', json_file,
-            '--verbose'  # 添加详细输出
-        ]
-        
-        logging.info(f"执行命令: {' '.join(cmd)}")
-        
-        # 执行命令
-        result = subprocess.run(cmd, capture_output=True, text=True)
-        
-        if result.returncode == 0:
-            logging.info(f"成功导入文件 {json_file} 到集合 {collection_name}")
-            logging.info(f"命令输出: {result.stdout}")
-            
-            # 验证导入
-            count = db[collection_name].count_documents({})
-            logging.info(f"验证: 集合 {collection_name} 中现有 {count} 条记录")
-            
-            if count == 0:
-                logging.warning(f"警告: 集合 {collection_name} 中没有数据")
-                # 显示文件内容的前几行
-                with open(json_file, 'r') as f:
-                    content = f.read(1000)  # 读取前1000个字符
-                    logging.info(f"文件内容预览: {content}")
+        # 插入数据
+        if isinstance(data, list):
+            if data:
+                result = db[collection_name].insert_many(data)
+                logging.info(f"成功导入 {len(result.inserted_ids)} 条记录到 {collection_name}")
+            else:
+                logging.warning(f"警告: {json_file} 中没有数据")
         else:
-            logging.error(f"导入失败: {result.stderr}")
+            result = db[collection_name].insert_one(data)
+            logging.info(f"成功导入 1 条记录到 {collection_name}")
+            
+        # 验证导入
+        count = db[collection_name].count_documents({})
+        logging.info(f"验证: 集合 {collection_name} 中现有 {count} 条记录")
             
     except Exception as e:
         logging.error(f"导入 {json_file} 时出错: {str(e)}")
@@ -86,8 +86,8 @@ def import_json_to_mongodb(json_file, collection_name, db):
 
 def main():
     try:
-        # 检查MongoDB连接
-        db = check_mongodb_connection()
+        # 连接到MongoDB
+        db = connect_to_mongodb()
         
         # 获取所有JSON文件
         json_files = glob.glob('mongodb data/*.json')
@@ -97,7 +97,7 @@ def main():
             # 从文件名中提取集合名称
             collection_name = os.path.basename(json_file).replace('.json', '')
             logging.info(f"正在处理文件: {json_file}")
-            import_json_to_mongodb(json_file, collection_name, db)
+            import_json_file(json_file, collection_name, db)
             
         logging.info("所有文件处理完成")
         
