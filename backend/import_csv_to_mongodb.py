@@ -24,6 +24,8 @@ def import_json_to_mongodb(json_file, collection_name):
             '--db', 'soulwhisper',
             '--collection', collection_name,
             '--type', 'json',
+            '--jsonArray',  # 添加这个选项来支持JSON数组
+            '--legacy',     # 添加这个选项来支持MongoDB扩展JSON格式
             '--file', json_file
         ]
         
