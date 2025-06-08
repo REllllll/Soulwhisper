@@ -1,0 +1,540 @@
+[{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c5668f"
+  },
+  "id": 1,
+  "name": "Can add log entry",
+  "content_type_id": 1,
+  "codename": "add_logentry"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c56690"
+  },
+  "id": 2,
+  "name": "Can change log entry",
+  "content_type_id": 1,
+  "codename": "change_logentry"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c56691"
+  },
+  "id": 3,
+  "name": "Can delete log entry",
+  "content_type_id": 1,
+  "codename": "delete_logentry"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c56692"
+  },
+  "id": 4,
+  "name": "Can view log entry",
+  "content_type_id": 1,
+  "codename": "view_logentry"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c56695"
+  },
+  "id": 5,
+  "name": "Can add permission",
+  "content_type_id": 2,
+  "codename": "add_permission"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c56696"
+  },
+  "id": 6,
+  "name": "Can change permission",
+  "content_type_id": 2,
+  "codename": "change_permission"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c56697"
+  },
+  "id": 7,
+  "name": "Can delete permission",
+  "content_type_id": 2,
+  "codename": "delete_permission"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c56698"
+  },
+  "id": 8,
+  "name": "Can view permission",
+  "content_type_id": 2,
+  "codename": "view_permission"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c56699"
+  },
+  "id": 9,
+  "name": "Can add group",
+  "content_type_id": 3,
+  "codename": "add_group"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c5669a"
+  },
+  "id": 10,
+  "name": "Can change group",
+  "content_type_id": 3,
+  "codename": "change_group"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c5669b"
+  },
+  "id": 11,
+  "name": "Can delete group",
+  "content_type_id": 3,
+  "codename": "delete_group"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c5669c"
+  },
+  "id": 12,
+  "name": "Can view group",
+  "content_type_id": 3,
+  "codename": "view_group"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c5669e"
+  },
+  "id": 13,
+  "name": "Can add content type",
+  "content_type_id": 4,
+  "codename": "add_contenttype"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c5669f"
+  },
+  "id": 14,
+  "name": "Can change content type",
+  "content_type_id": 4,
+  "codename": "change_contenttype"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566a0"
+  },
+  "id": 15,
+  "name": "Can delete content type",
+  "content_type_id": 4,
+  "codename": "delete_contenttype"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566a1"
+  },
+  "id": 16,
+  "name": "Can view content type",
+  "content_type_id": 4,
+  "codename": "view_contenttype"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566a3"
+  },
+  "id": 17,
+  "name": "Can add session",
+  "content_type_id": 5,
+  "codename": "add_session"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566a4"
+  },
+  "id": 18,
+  "name": "Can change session",
+  "content_type_id": 5,
+  "codename": "change_session"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566a5"
+  },
+  "id": 19,
+  "name": "Can delete session",
+  "content_type_id": 5,
+  "codename": "delete_session"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566a6"
+  },
+  "id": 20,
+  "name": "Can view session",
+  "content_type_id": 5,
+  "codename": "view_session"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566a9"
+  },
+  "id": 21,
+  "name": "Can add Token",
+  "content_type_id": 6,
+  "codename": "add_token"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566aa"
+  },
+  "id": 22,
+  "name": "Can change Token",
+  "content_type_id": 6,
+  "codename": "change_token"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566ab"
+  },
+  "id": 23,
+  "name": "Can delete Token",
+  "content_type_id": 6,
+  "codename": "delete_token"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566ac"
+  },
+  "id": 24,
+  "name": "Can view Token",
+  "content_type_id": 6,
+  "codename": "view_token"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566ad"
+  },
+  "id": 25,
+  "name": "Can add token",
+  "content_type_id": 7,
+  "codename": "add_tokenproxy"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566ae"
+  },
+  "id": 26,
+  "name": "Can change token",
+  "content_type_id": 7,
+  "codename": "change_tokenproxy"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566af"
+  },
+  "id": 27,
+  "name": "Can delete token",
+  "content_type_id": 7,
+  "codename": "delete_tokenproxy"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566b0"
+  },
+  "id": 28,
+  "name": "Can view token",
+  "content_type_id": 7,
+  "codename": "view_tokenproxy"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566b2"
+  },
+  "id": 29,
+  "name": "Can add user",
+  "content_type_id": 8,
+  "codename": "add_user"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566b3"
+  },
+  "id": 30,
+  "name": "Can change user",
+  "content_type_id": 8,
+  "codename": "change_user"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566b4"
+  },
+  "id": 31,
+  "name": "Can delete user",
+  "content_type_id": 8,
+  "codename": "delete_user"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566b5"
+  },
+  "id": 32,
+  "name": "Can view user",
+  "content_type_id": 8,
+  "codename": "view_user"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566b7"
+  },
+  "id": 33,
+  "name": "Can add Diary",
+  "content_type_id": 9,
+  "codename": "add_diary"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566b8"
+  },
+  "id": 34,
+  "name": "Can change Diary",
+  "content_type_id": 9,
+  "codename": "change_diary"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566b9"
+  },
+  "id": 35,
+  "name": "Can delete Diary",
+  "content_type_id": 9,
+  "codename": "delete_diary"
+},
+{
+  "_id": {
+    "$oid": "68073a97dbed193ac6c566ba"
+  },
+  "id": 36,
+  "name": "Can view Diary",
+  "content_type_id": 9,
+  "codename": "view_diary"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566c1"
+  },
+  "id": 37,
+  "name": "Can add daily keyword",
+  "content_type_id": 10,
+  "codename": "add_dailykeyword"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566c2"
+  },
+  "id": 38,
+  "name": "Can change daily keyword",
+  "content_type_id": 10,
+  "codename": "change_dailykeyword"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566c3"
+  },
+  "id": 39,
+  "name": "Can delete daily keyword",
+  "content_type_id": 10,
+  "codename": "delete_dailykeyword"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566c4"
+  },
+  "id": 40,
+  "name": "Can view daily keyword",
+  "content_type_id": 10,
+  "codename": "view_dailykeyword"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566c5"
+  },
+  "id": 41,
+  "name": "Can add healing quote",
+  "content_type_id": 11,
+  "codename": "add_healingquote"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566c6"
+  },
+  "id": 42,
+  "name": "Can change healing quote",
+  "content_type_id": 11,
+  "codename": "change_healingquote"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566c7"
+  },
+  "id": 43,
+  "name": "Can delete healing quote",
+  "content_type_id": 11,
+  "codename": "delete_healingquote"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566c8"
+  },
+  "id": 44,
+  "name": "Can view healing quote",
+  "content_type_id": 11,
+  "codename": "view_healingquote"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566c9"
+  },
+  "id": 45,
+  "name": "Can add healing activity",
+  "content_type_id": 12,
+  "codename": "add_healingactivity"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566ca"
+  },
+  "id": 46,
+  "name": "Can change healing activity",
+  "content_type_id": 12,
+  "codename": "change_healingactivity"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566cb"
+  },
+  "id": 47,
+  "name": "Can delete healing activity",
+  "content_type_id": 12,
+  "codename": "delete_healingactivity"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566cc"
+  },
+  "id": 48,
+  "name": "Can view healing activity",
+  "content_type_id": 12,
+  "codename": "view_healingactivity"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566cd"
+  },
+  "id": 49,
+  "name": "Can add post",
+  "content_type_id": 13,
+  "codename": "add_post"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566ce"
+  },
+  "id": 50,
+  "name": "Can change post",
+  "content_type_id": 13,
+  "codename": "change_post"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566cf"
+  },
+  "id": 51,
+  "name": "Can delete post",
+  "content_type_id": 13,
+  "codename": "delete_post"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566d0"
+  },
+  "id": 52,
+  "name": "Can view post",
+  "content_type_id": 13,
+  "codename": "view_post"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566d1"
+  },
+  "id": 53,
+  "name": "Can add comment",
+  "content_type_id": 14,
+  "codename": "add_comment"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566d2"
+  },
+  "id": 54,
+  "name": "Can change comment",
+  "content_type_id": 14,
+  "codename": "change_comment"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566d3"
+  },
+  "id": 55,
+  "name": "Can delete comment",
+  "content_type_id": 14,
+  "codename": "delete_comment"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566d4"
+  },
+  "id": 56,
+  "name": "Can view comment",
+  "content_type_id": 14,
+  "codename": "view_comment"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566d5"
+  },
+  "id": 57,
+  "name": "Can add like",
+  "content_type_id": 15,
+  "codename": "add_like"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566d6"
+  },
+  "id": 58,
+  "name": "Can change like",
+  "content_type_id": 15,
+  "codename": "change_like"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566d7"
+  },
+  "id": 59,
+  "name": "Can delete like",
+  "content_type_id": 15,
+  "codename": "delete_like"
+},
+{
+  "_id": {
+    "$oid": "68073a98dbed193ac6c566d8"
+  },
+  "id": 60,
+  "name": "Can view like",
+  "content_type_id": 15,
+  "codename": "view_like"
+}]

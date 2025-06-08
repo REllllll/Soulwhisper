@@ -1,0 +1,7 @@
+_id,name,auto.field_names[0],auto.seq,fields.app.type_code,fields.applied.type_code,fields.id.type_code,fields.name.type_code,fields.app_label.type_code,fields.model.type_code,fields.action_flag.type_code,fields.action_time.type_code,fields.change_message.type_code,fields.content_type_id.type_code,fields.object_id.type_code,fields.object_repr.type_code,fields.user_id.type_code,fields.codename.type_code,fields.group_id.type_code,fields.permission_id.type_code
+68073a97674c21438c7f21db,django_migrations,id,25,string,date,int,string,,,,,,,,,,,,
+68073a97674c21438c7f21dc,django_content_type,id,15,,,int,,string,string,,,,,,,,,,
+68073a97674c21438c7f21dd,django_admin_log,id,0,,,int,,,,int,date,string,int,string,string,objectId,,,
+68073a97674c21438c7f21de,auth_permission,id,60,,,int,string,,,,,,int,,,,string,,
+68073a97674c21438c7f21df,auth_group,id,0,,,int,string,,,,,,,,,,,,
+68073a97674c21438c7f21e0,auth_group_permissions,id,0,,,int,,,,,,,,,,,,int,int

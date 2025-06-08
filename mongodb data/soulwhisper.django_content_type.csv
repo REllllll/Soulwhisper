@@ -1,0 +1,16 @@
+_id,id,app_label,model
+68073a97dbed193ac6c5668e,1,admin,logentry
+68073a97dbed193ac6c56693,2,auth,permission
+68073a97dbed193ac6c56694,3,auth,group
+68073a97dbed193ac6c5669d,4,contenttypes,contenttype
+68073a97dbed193ac6c566a2,5,sessions,session
+68073a97dbed193ac6c566a7,6,authtoken,token
+68073a97dbed193ac6c566a8,7,authtoken,tokenproxy
+68073a97dbed193ac6c566b1,8,account,user
+68073a97dbed193ac6c566b6,9,diary,diary
+68073a98dbed193ac6c566bb,10,community,dailykeyword
+68073a98dbed193ac6c566bc,11,community,healingquote
+68073a98dbed193ac6c566bd,12,community,healingactivity
+68073a98dbed193ac6c566be,13,community,post
+68073a98dbed193ac6c566bf,14,community,comment
+68073a98dbed193ac6c566c0,15,community,like

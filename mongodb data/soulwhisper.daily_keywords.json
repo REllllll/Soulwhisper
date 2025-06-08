@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf88f"
+  },
+  "keyword": "Gratitude",
+  "description": "Be thankful for every beautiful moment in life and cherish what you have.",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.602Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.602Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf890"
+  },
+  "keyword": "Courage",
+  "description": "Stay brave in the face of difficulties and believe in your ability to overcome challenges.",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.639Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.639Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf891"
+  },
+  "keyword": "Hope",
+  "description": "Keep hope alive, believe tomorrow will be better, and the future is full of possibilities.",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.644Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.644Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf892"
+  },
+  "keyword": "Calm",
+  "description": "Find inner peace in the midst of noise and learn to be alone with yourself.",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.647Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.647Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf893"
+  },
+  "keyword": "Growth",
+  "description": "Treat every experience as an opportunity to grow, keep learning and improving.",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.651Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.651Z"
+  }
+}]

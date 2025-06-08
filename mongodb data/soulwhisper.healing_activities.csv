@@ -1,0 +1,6 @@
+_id,title,description,duration,difficulty,is_active,created_at,updated_at
+6841aec85b473fdfda7cf899,Meditation Relaxation,"Find a quiet place, close your eyes, breathe deeply, and let your thoughts calm down.",15,easy,true,2025-06-05T14:50:48.709Z,2025-06-05T14:50:48.709Z
+6841aec85b473fdfda7cf89a,Gratitude Journal,"Write down three things you are grateful for today, no matter how small.",10,easy,true,2025-06-05T14:50:48.746Z,2025-06-05T14:50:48.746Z
+6841aec85b473fdfda7cf89b,Emotional Release,"Release your emotions through exercise, painting, or writing.",30,medium,true,2025-06-05T14:50:48.751Z,2025-06-05T14:50:48.751Z
+6841aec85b473fdfda7cf89c,Self-talk Letter,"Write a letter to yourself, expressing care and support.",20,medium,true,2025-06-05T14:50:48.755Z,2025-06-05T14:50:48.755Z
+6841aec85b473fdfda7cf89d,Mindful Walk,"Take a walk outdoors, focus on the present moment, and observe your surroundings.",45,easy,true,2025-06-05T14:50:48.758Z,2025-06-05T14:50:48.758Z

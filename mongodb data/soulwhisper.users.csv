@@ -1,0 +1,13 @@
+_id,password,last_login,username,name,sex,created_at,is_active,is_admin
+6805c9728a5ea24e7fcc123d,pbkdf2_sha256$216000$EHoam6t0awjl$PNfW6absLTWm6QLr8aLJE5zaK1SxkePsCjpVSuv31e8=,2025-04-29T06:32:50.035Z,www,eee,male,2025-04-21T04:28:34.674Z,true,false
+6805ce758a5ea24e7fcc1240,pbkdf2_sha256$216000$sqqdgzmyWrMC$G5RYVwKTRL6ZAwH4sadhKrxNyWyIj1FY0wyMe6jwhvY=,2025-04-21T04:50:07.347Z,zsq,zsqlj,other,2025-04-21T04:49:57.993Z,true,false
+6805f29d8a5ea24e7fcc1244,pbkdf2_sha256$216000$9T3aTOUWq0xB$yvOSgHF3wdJ5olKGxWDiCJl76kJYXJdq3hTT/l+BcqM=,2025-04-21T07:24:19.355Z,lcx,lcx,female,2025-04-21T07:24:13.076Z,true,false
+6805f7ba8a5ea24e7fcc1248,pbkdf2_sha256$216000$6CkRFw4I7Xj8$fgsbCvWgfD18k7TOSqjwHMU+iafb7WRmYtLYPAFQXx8=,,sss,sss,other,2025-04-21T07:46:02.356Z,true,false
+6805f9208a5ea24e7fcc1249,pbkdf2_sha256$216000$UN1wyniBP5Eo$LhRiS0S1xinOGd0f4ntHHPZlvaS8ReKdmXUVur9pMhc=,2025-04-21T08:08:20.675Z,eee,eee,male,2025-04-21T07:52:00.368Z,true,false
+6805fd04ed8cd002262d740b,pbkdf2_sha256$216000$BkixsTq9RnFI$ctMf6mCL2e3UDaIEI6lVULVWikhY/2KG16y/UT2d9B4=,,111,111,female,2025-04-21T08:08:36.459Z,true,false
+68060040c44cda9f295ca782,pbkdf2_sha256$216000$QX3mQRjlLyYo$hg6SVgxDdvmqqhq6ubgiqZdCbxaVVJteJqFnD6GxArg=,,222,222,male,2025-04-21T08:22:24.167Z,true,false
+680739dd679d00c9cfa36cf9,pbkdf2_sha256$216000$JVku5w6DKyTY$CMpMRnMXX1QirJiPk2f3D46vKWWphLr2PTHZEuxPC/U=,2025-06-05T15:39:40.354Z,1,1,male,2025-04-22T06:40:29.445Z,true,false
+68077cad1487433cf7c6b4c3,pbkdf2_sha256$216000$PJ2SV1ofylje$c/GQBPAOeqlGXlTe7cKfQUlEKZ8Q/74Wer930CptfWs=,,2,2,male,2025-04-22T11:25:33.151Z,true,false
+6807818c1487433cf7c6b4c4,pbkdf2_sha256$216000$uJfCrh1kIXbu$Gw8TXc635M9zZd9MN4GKPfNwL7HLyEW+opEOixbWDRY=,,22,22,male,2025-04-22T11:46:20.623Z,true,false
+680bd935a238d2bc5d5a1329,pbkdf2_sha256$216000$Fbum3dUxHiTz$zd65JhH/jIjXLW95E5HY9tUTkvaz5Zd1dQBme3f5sbY=,,testuser,测试用户,M,2025-04-25T18:49:25.096Z,true,false
+68107601108375f3fa3bea5d,pbkdf2_sha256$216000$cuKNkm4CWvBS$KFtUet5kENsW9uQGr8g4wJasqxCXgmW013Nf/anZQPo=,,rrr,rrr,male,2025-04-29T06:47:29.214Z,true,false

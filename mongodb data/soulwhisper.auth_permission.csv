@@ -1,0 +1,61 @@
+_id,id,name,content_type_id,codename
+68073a97dbed193ac6c5668f,1,Can add log entry,1,add_logentry
+68073a97dbed193ac6c56690,2,Can change log entry,1,change_logentry
+68073a97dbed193ac6c56691,3,Can delete log entry,1,delete_logentry
+68073a97dbed193ac6c56692,4,Can view log entry,1,view_logentry
+68073a97dbed193ac6c56695,5,Can add permission,2,add_permission
+68073a97dbed193ac6c56696,6,Can change permission,2,change_permission
+68073a97dbed193ac6c56697,7,Can delete permission,2,delete_permission
+68073a97dbed193ac6c56698,8,Can view permission,2,view_permission
+68073a97dbed193ac6c56699,9,Can add group,3,add_group
+68073a97dbed193ac6c5669a,10,Can change group,3,change_group
+68073a97dbed193ac6c5669b,11,Can delete group,3,delete_group
+68073a97dbed193ac6c5669c,12,Can view group,3,view_group
+68073a97dbed193ac6c5669e,13,Can add content type,4,add_contenttype
+68073a97dbed193ac6c5669f,14,Can change content type,4,change_contenttype
+68073a97dbed193ac6c566a0,15,Can delete content type,4,delete_contenttype
+68073a97dbed193ac6c566a1,16,Can view content type,4,view_contenttype
+68073a97dbed193ac6c566a3,17,Can add session,5,add_session
+68073a97dbed193ac6c566a4,18,Can change session,5,change_session
+68073a97dbed193ac6c566a5,19,Can delete session,5,delete_session
+68073a97dbed193ac6c566a6,20,Can view session,5,view_session
+68073a97dbed193ac6c566a9,21,Can add Token,6,add_token
+68073a97dbed193ac6c566aa,22,Can change Token,6,change_token
+68073a97dbed193ac6c566ab,23,Can delete Token,6,delete_token
+68073a97dbed193ac6c566ac,24,Can view Token,6,view_token
+68073a97dbed193ac6c566ad,25,Can add token,7,add_tokenproxy
+68073a97dbed193ac6c566ae,26,Can change token,7,change_tokenproxy
+68073a97dbed193ac6c566af,27,Can delete token,7,delete_tokenproxy
+68073a97dbed193ac6c566b0,28,Can view token,7,view_tokenproxy
+68073a97dbed193ac6c566b2,29,Can add user,8,add_user
+68073a97dbed193ac6c566b3,30,Can change user,8,change_user
+68073a97dbed193ac6c566b4,31,Can delete user,8,delete_user
+68073a97dbed193ac6c566b5,32,Can view user,8,view_user
+68073a97dbed193ac6c566b7,33,Can add Diary,9,add_diary
+68073a97dbed193ac6c566b8,34,Can change Diary,9,change_diary
+68073a97dbed193ac6c566b9,35,Can delete Diary,9,delete_diary
+68073a97dbed193ac6c566ba,36,Can view Diary,9,view_diary
+68073a98dbed193ac6c566c1,37,Can add daily keyword,10,add_dailykeyword
+68073a98dbed193ac6c566c2,38,Can change daily keyword,10,change_dailykeyword
+68073a98dbed193ac6c566c3,39,Can delete daily keyword,10,delete_dailykeyword
+68073a98dbed193ac6c566c4,40,Can view daily keyword,10,view_dailykeyword
+68073a98dbed193ac6c566c5,41,Can add healing quote,11,add_healingquote
+68073a98dbed193ac6c566c6,42,Can change healing quote,11,change_healingquote
+68073a98dbed193ac6c566c7,43,Can delete healing quote,11,delete_healingquote
+68073a98dbed193ac6c566c8,44,Can view healing quote,11,view_healingquote
+68073a98dbed193ac6c566c9,45,Can add healing activity,12,add_healingactivity
+68073a98dbed193ac6c566ca,46,Can change healing activity,12,change_healingactivity
+68073a98dbed193ac6c566cb,47,Can delete healing activity,12,delete_healingactivity
+68073a98dbed193ac6c566cc,48,Can view healing activity,12,view_healingactivity
+68073a98dbed193ac6c566cd,49,Can add post,13,add_post
+68073a98dbed193ac6c566ce,50,Can change post,13,change_post
+68073a98dbed193ac6c566cf,51,Can delete post,13,delete_post
+68073a98dbed193ac6c566d0,52,Can view post,13,view_post
+68073a98dbed193ac6c566d1,53,Can add comment,14,add_comment
+68073a98dbed193ac6c566d2,54,Can change comment,14,change_comment
+68073a98dbed193ac6c566d3,55,Can delete comment,14,delete_comment
+68073a98dbed193ac6c566d4,56,Can view comment,14,view_comment
+68073a98dbed193ac6c566d5,57,Can add like,15,add_like
+68073a98dbed193ac6c566d6,58,Can change like,15,change_like
+68073a98dbed193ac6c566d7,59,Can delete like,15,delete_like
+68073a98dbed193ac6c566d8,60,Can view like,15,view_like

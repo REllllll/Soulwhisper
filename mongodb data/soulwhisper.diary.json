@@ -1,0 +1,98 @@
+[{
+  "_id": {
+    "$oid": "684559837759a8d6726978d3"
+  },
+  "user_id": {
+    "$oid": "680739dd679d00c9cfa36cf9"
+  },
+  "content": "Today was a wonderful day! I went for a walk in the park with friends, the sun was shining, and I felt full of energy. Watching children play made me especially happy.",
+  "emotion_type": "happy",
+  "emotion_intensity": 8,
+  "created_at": {
+    "$date": "2025-06-08T09:36:03.548Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684559837759a8d6726978d4"
+  },
+  "user_id": {
+    "$oid": "680739dd679d00c9cfa36cf9"
+  },
+  "content": "Work pressure is a bit high, the project deadline is approaching, and I feel somewhat anxious. Need to adjust my mindset and plan my time better.",
+  "emotion_type": "neutral",
+  "emotion_intensity": 6,
+  "created_at": {
+    "$date": "2025-06-07T09:36:03.551Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684559837759a8d6726978d5"
+  },
+  "user_id": {
+    "$oid": "680739dd679d00c9cfa36cf9"
+  },
+  "content": "Today was peaceful, I completed my work as usual, read a book during lunch break, and felt that the pace of life was just right.",
+  "emotion_type": "neutral",
+  "emotion_intensity": 5,
+  "created_at": {
+    "$date": "2025-06-06T09:36:03.553Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684559837759a8d6726978d6"
+  },
+  "user_id": {
+    "$oid": "680739dd679d00c9cfa36cf9"
+  },
+  "content": "Had a video call with family, heard that grandma is not feeling well, which made me a bit sad. Hope she recovers soon.",
+  "emotion_type": "sad",
+  "emotion_intensity": 7,
+  "created_at": {
+    "$date": "2025-06-05T09:36:03.556Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684559837759a8d6726978d7"
+  },
+  "user_id": {
+    "$oid": "680739dd679d00c9cfa36cf9"
+  },
+  "content": "Received the long-awaited offer! So happy! All the hard work finally paid off, I feel like I'm glowing!",
+  "emotion_type": "happy",
+  "emotion_intensity": 9,
+  "created_at": {
+    "$date": "2025-06-04T09:36:03.558Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684559837759a8d6726978d8"
+  },
+  "user_id": {
+    "$oid": "680739dd679d00c9cfa36cf9"
+  },
+  "content": "Been working overtime for three days straight, feeling physically and mentally exhausted. Need to rest and adjust my state.",
+  "emotion_type": "neutral",
+  "emotion_intensity": 7,
+  "created_at": {
+    "$date": "2025-06-03T09:36:03.561Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684559837759a8d6726978d9"
+  },
+  "user_id": {
+    "$oid": "680739dd679d00c9cfa36cf9"
+  },
+  "content": "Met a very rude person on the subway who cut in line and glared at me, it really made me angry. Deep breaths, don't let such people affect me.",
+  "emotion_type": "angry",
+  "emotion_intensity": 6,
+  "created_at": {
+    "$date": "2025-06-02T09:36:03.565Z"
+  }
+}]

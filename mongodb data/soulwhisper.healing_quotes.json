@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf894"
+  },
+  "content": "You deserve to be treated gently.",
+  "author": "SoulWhisper",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.654Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.654Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf895"
+  },
+  "content": "Embrace the new day with hope.",
+  "author": "SoulWhisper",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.693Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.693Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf896"
+  },
+  "content": "Your heart is stronger than you think.",
+  "author": "SoulWhisper",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.697Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.697Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf897"
+  },
+  "content": "Life is like a mirror.",
+  "author": "SoulWhisper",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.701Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.701Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf898"
+  },
+  "content": "Cherish the present and live in the moment.",
+  "author": "SoulWhisper",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.705Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.705Z"
+  }
+}]

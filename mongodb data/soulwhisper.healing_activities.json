@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf899"
+  },
+  "title": "Meditation Relaxation",
+  "description": "Find a quiet place, close your eyes, breathe deeply, and let your thoughts calm down.",
+  "duration": 15,
+  "difficulty": "easy",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.709Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.709Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf89a"
+  },
+  "title": "Gratitude Journal",
+  "description": "Write down three things you are grateful for today, no matter how small.",
+  "duration": 10,
+  "difficulty": "easy",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.746Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf89b"
+  },
+  "title": "Emotional Release",
+  "description": "Release your emotions through exercise, painting, or writing.",
+  "duration": 30,
+  "difficulty": "medium",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.751Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.751Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf89c"
+  },
+  "title": "Self-talk Letter",
+  "description": "Write a letter to yourself, expressing care and support.",
+  "duration": 20,
+  "difficulty": "medium",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.755Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.755Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6841aec85b473fdfda7cf89d"
+  },
+  "title": "Mindful Walk",
+  "description": "Take a walk outdoors, focus on the present moment, and observe your surroundings.",
+  "duration": 45,
+  "difficulty": "easy",
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-05T14:50:48.758Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-05T14:50:48.758Z"
+  }
+}]
